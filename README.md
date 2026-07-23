@@ -147,7 +147,7 @@ Master's Student in Artificial Intelligence
 Building AI agents, automation systems, and software that solve real-world business problems.
 
 - GitHub: https://github.com/MeriemLouriachi
-- LinkedIn: https://www.linkedin.com/in/meriem-louriachi/
+- LinkedIn: https://www.linkedin.com/in/louriachi-meriem-694a1024b/
 
 ---
 
