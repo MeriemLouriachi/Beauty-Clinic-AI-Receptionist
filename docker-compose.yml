@@ -12,7 +12,6 @@ services:
       - postgres_data:/var/lib/postgresql/data
     ports:
       - "5432:5432"
-
   n8n:
     image: n8nio/n8n
     restart: always
@@ -24,6 +23,8 @@ services:
       DB_POSTGRESDB_DATABASE: ${POSTGRES_DB}
       DB_POSTGRESDB_USER: ${POSTGRES_USER}
       DB_POSTGRESDB_PASSWORD: ${POSTGRES_PASSWORD}
+      GEMINI_API_KEY: ${GEMINI_API_KEY}
+      N8N_BLOCK_ENV_ACCESS_IN_NODE: "false"
     depends_on:
       - postgres
     volumes:
@@ -32,3 +33,4 @@ services:
 volumes:
   postgres_data:
   n8n_data:
+  
