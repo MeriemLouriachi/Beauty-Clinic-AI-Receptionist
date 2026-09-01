@@ -1,0 +1,15 @@
+info:
+  name: Malformed variant (missing sender.id)
+  type: http
+  seq: 3
+
+http:
+  method: POST
+  url: http://localhost:5678/webhook-test/instegram-intake
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

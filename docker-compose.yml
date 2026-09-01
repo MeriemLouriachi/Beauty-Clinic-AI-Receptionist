@@ -23,8 +23,6 @@ services:
       DB_POSTGRESDB_DATABASE: ${POSTGRES_DB}
       DB_POSTGRESDB_USER: ${POSTGRES_USER}
       DB_POSTGRESDB_PASSWORD: ${POSTGRES_PASSWORD}
-      GEMINI_API_KEY: ${GEMINI_API_KEY}
-      N8N_BLOCK_ENV_ACCESS_IN_NODE: "false"
     depends_on:
       - postgres
     volumes:
